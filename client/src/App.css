@@ -1,0 +1,272 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.app-container {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #f4f7fc;
+  max-width: 900px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.header {
+  text-align: center;
+  color: #4a90e2;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  margin: 10px 0;
+}
+
+.input-field label {
+  font-weight: bold;
+  display: block;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  background-color: #4a90e2;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-group button:hover {
+  background-color: #357ABD;
+}
+
+.call-notification {
+  padding: 10px;
+  background-color: #f0f4f7;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+.response-message {
+  margin-top: 20px;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.chat-history-container {
+  margin-top: 40px;
+}
+
+.chat-history {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.chat-history h3 {
+  margin-top: 0;
+}
+
+.chat-bubbles {
+  margin: 15px 0;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.incoming-bubble, .outgoing-bubble {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  max-width: 80%;
+}
+
+.incoming-bubble {
+  background-color: #f1f1f1;
+  text-align: left;
+}
+
+.outgoing-bubble {
+  background-color: #4a90e2;
+  color: white;
+  text-align: right;
+}
+
+.send-message textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.send-message button {
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.send-message button:hover {
+  background-color: #357ABD;
+}
+.header {
+  background-color: cornflowerblue;
+  color: azure;
+  padding: 10px 26px;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+.phone-box {
+  margin: 0 40%;
+  margin-top: 60px;
+}
+.gird {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-items: center;
+  column-gap: 10px;
+  row-gap: 15px;
+}
+
+.number {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: 900;
+  width: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.number:active {
+  background-color: darkgrey;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 0.2);
+  transform: translateY(4px);
+}
+
+.number-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 1.5rem;
+}
+
+.button {
+  padding: 8px 16px;
+  color: white;
+  width: 10%;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+.call {
+  border-radius: 50%;
+
+  margin-top: 20px;
+
+
+}
+.in-call {
+  border-radius: 50%;
+  background-color: red;
+}
+.button:active {
+  opacity: 0.5;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 0.2);
+  transform: translateY(4px);
+}
+
+.user-state {
+  padding: 8px 16px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.timer {
+  text-align: center;
+}
+.connect-button {
+  background-color: green;
+}
+
+
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header,
+footer {
+  /* background: #36d576; */
+  color: #fff;
+  text-align: center;
+}
+main {
+  flex-grow: 1;
+}
+footer a {
+  color: #fff;
+}
